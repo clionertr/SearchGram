@@ -1,0 +1,6 @@
+pyrogram==2.0.106
+TgCrypto==1.2.5
+meilisearch==0.25.0
+redis==4.5.5
+coloredlogs==15.0.1
+python-dotenv==1.0.0
