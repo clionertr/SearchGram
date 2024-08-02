@@ -1,0 +1,8 @@
+/session/bot.session
+/session/bot.session-journal
+/session/client.session
+/session/client.session-journal
+/venv
+client.log
+config.py
+/.idea

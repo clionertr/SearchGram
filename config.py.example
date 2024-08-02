@@ -1,0 +1,27 @@
+#!/usr/local/bin/python3
+# coding: utf-8
+
+import os
+ENGINE ="meili"
+
+APP_ID = int(os.getenv("APP_ID", 20000008))
+APP_HASH = os.getenv("APP_HASH", "889000000000000000000000ac20")
+TOKEN = os.getenv("TOKEN", "730000044:AAH00000000000000000000008")
+
+MEILI_HOST = os.getenv("MEILI_HOST", "http://127.0.0.1:7700")
+MEILI_PASS = os.getenv("MEILI_MASTER_KEY", 'PASSWORDkcksmmd626266')
+
+OWNER_IDS  = [5000000, 60000043]
+BOT_ID = int(TOKEN.split(":")[0])
+
+PROXY = os.getenv("PROXY")
+IPv6 = bool(os.getenv("IPv6", False))
+
+REDIS_HOST = os.getenv("REDIS_HOST", "localhost")
+REDIS_PORT = int(os.getenv("REDIS_PORT", 6379))
+REDIS_DB = int(os.getenv("REDIS_DB", 0))
+REDIS_PASSWORD = os.getenv("REDIS_PASSWORD", "password51565165446")
+
+
+#控制bot.py启动的同步客户端是否保存日志文件
+view_client_log = False
