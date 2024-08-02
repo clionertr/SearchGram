@@ -105,9 +105,9 @@ sync.ini配置同步
 
 下图前半段为同步7w历史消息时的性能状况，后半段为同步完成的性能状况
 
-![IO](.\resources\Snipaste_2024-08-02_13-16-15.png) 
-![CPU和内存](.\resources\Snipaste_2024-08-02_13-16-03.png) 
-![负载](.\resources\Snipaste_2024-08-02_13-15-49.png)
+![IO](https://github.com/clionertr/SearchGram/blob/master/resources/Snipaste_2024-08-02_13-16-15.png) 
+![CPU和内存](https://github.com/clionertr/SearchGram/blob/master/resources/Snipaste_2024-08-02_13-16-03.png) 
+![负载](https://github.com/clionertr/SearchGram/blob/master/resources/Snipaste_2024-08-02_13-15-49.png)
 
 
 ## 省流
